@@ -129,9 +129,9 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
                     fontWeight: 400,
                   }} 
                 >
-                  <MenuItem value={'Recurso 1'}>Recurso 1</MenuItem>
-                  <MenuItem value={'Recurso 2'}>Recurso 2</MenuItem>
-                  <MenuItem value={'Recurso 3'}>Recurso 3</MenuItem>
+                  <MenuItem value={'Recurso 1'}>Financeiro</MenuItem>
+                  <MenuItem value={'Recurso 2'}>Humano</MenuItem>
+                  <MenuItem value={'Recurso 3'}>Lógico</MenuItem>
                 </Select>
               </FormControl>
             </Grid>
@@ -149,7 +149,8 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
                     fontWeight: 400,
                   }} 
                 >
-                  <MenuItem value={'Aguardando'}>Aguardando</MenuItem>
+                  <MenuItem value={'Aguardando'}>Aguardando confirmação</MenuItem>
+                  <MenuItem value={'Aprovado'}>Aprovado</MenuItem>
                   <MenuItem value={'Em Andamento'}>Em Andamento</MenuItem>
                   <MenuItem value={'Concluída'}>Concluída</MenuItem>
                 </Select>
